@@ -1,4 +1,4 @@
-<img width="1324" height="742" alt="3 Risk_Dashboard" src="https://github.com/user-attachments/assets/fca3831f-0cb4-48b4-8ebc-160f2bb6f6e9" /># ChurnWatch – Customer Retention & Churn Risk Analytics
+### ChurnWatch – Customer Retention & Churn Risk Analytics
 
 ## 📊 Project Overview
 
