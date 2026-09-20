@@ -1,4 +1,4 @@
-# ChurnWatch – Customer Retention & Churn Risk Analytics
+<img width="1324" height="742" alt="3 Risk_Dashboard" src="https://github.com/user-attachments/assets/fca3831f-0cb4-48b4-8ebc-160f2bb6f6e9" /># ChurnWatch – Customer Retention & Churn Risk Analytics
 
 ## 📊 Project Overview
 
@@ -95,7 +95,7 @@ The Executive Dashboard provides a high-level overview of customer churn and ret
 - Churn Rate by Plan
 - Total Monthly Revenue by Geography
 
-![Executive Dashboard](Dashboard_Screenshots/1_Executive_Dashboard.png)
+![Executive Dashboard](Screenshots/1.Executive_Dashboard.png)
 
 ---
 
@@ -117,7 +117,7 @@ This page analyzes factors associated with customer churn.
 - Churn Rate by Login Activity
 - Revenue at Risk by Risk Band
 
-![Churn Signal Analysis](Dashboard_Screenshots/2_Churn_Signal_Analysis.png)
+![Churn Signal Analysis](Screenshots/2.Churn_Analysis.png)
 
 ---
 
@@ -141,7 +141,7 @@ The customer queue provides information such as:
 - Monthly Revenue
 - Recommended Action
 
-![Churn Risk Dashboard](Dashboard_Screenshots/3_Churn_Risk_Dashboard.png)
+![Churn Risk Dashboard](Screenshots/3.Risk_Dashboard.png)
 
 ---
 
@@ -164,7 +164,7 @@ This page tracks customer retention activities and intervention performance.
 - Owner Performance
 - Pending Intervention Table
 
-![Retention Operations](Dashboard_Screenshots/4_Retention_Operations.png)
+![Retention Operations](Screenshots/4.Retention_Operations.png)
 
 ---
 
@@ -200,19 +200,29 @@ ChurnWatch can help retention teams:
 # 📂 Project Structure
 
 ```text
-ChurnWatch-Customer-Retention-Analytics/
+ChurnWatch
 │
-├── README.md
-├── Dashboard/
-│   └── ChurnWatch_Dashboard.pbix
-├── Data/
-│   └── ChurnWatch_Dataset.xlsx
-├── SQL/
-│   └── SQL analysis files
-├── Screenshots/
-│   ├── 01_Executive_Dashboard.png
-│   ├── 02_Churn_Signal_Analysis.png
-│   ├── 03_Churn_Risk_Dashboard.png
-│   └── 04_Retention_Operations.png
-└── Documentation/
-    └── Project_Overview.pdf
+├── README.md                        
+│
+├── Dataset
+│   └── ChurnWatch_Customers.xlsx 
+│
+├── SQL
+│   ├── 01_Create_Tables.sql          
+│   ├── 02_Data_Integration.sql       
+│   ├── 03_Churn_KPIs.sql             
+│   ├── 04_Churn_Signals.sql          
+│   ├── 05_Risk_Scoring.sql           
+│   └── 06_Retention_Analysis.sql     
+│
+├── PowerBI
+│   └── ChurnWatch_Dashboard.pbix     
+│
+├── Documentation
+│   └── ChurnWatch_Project_Documentation.pdf 
+│
+└── Screenshots
+    ├── Executive_Dashboard.png       
+    ├── Churn_Analysis.png            
+    ├── Risk_Dashboard.png            
+    └── Retention_Operations.png  
