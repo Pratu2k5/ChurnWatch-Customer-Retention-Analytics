@@ -1,4 +1,4 @@
-### ChurnWatch – Customer Retention & Churn Risk Analytics
+# ChurnWatch – Customer Retention & Churn Risk Analytics
 
 ## 📊 Project Overview
 
