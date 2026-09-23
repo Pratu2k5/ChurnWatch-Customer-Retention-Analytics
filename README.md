@@ -117,7 +117,7 @@ This page analyzes factors associated with customer churn.
 - Churn Rate by Login Activity
 - Revenue at Risk by Risk Band
 
-![Churn Signal Analysis](Screenshots/2.Churn_Analysis.png)
+![Churn Signal Analysis](Screenshots/2.ChurnS_Analysis.png)
 
 ---
 
